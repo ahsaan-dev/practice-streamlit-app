@@ -157,8 +157,8 @@ st.markdown(
 # ---------------------------------------------------------
 # Image questions need a vision-capable model. Change these names if
 # Groq retires them (see https://console.groq.com/docs/models).
-TEXT_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
-VISION_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
+TEXT_MODEL = "openai/gpt-oss-120b"
+VISION_MODEL = "openai/gpt-oss-120b"
 
 MAX_IMAGE_BYTES = 3 * 1024 * 1024  # Groq limits base64 images to ~4 MB
 
